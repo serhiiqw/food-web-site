@@ -1,34 +1,3 @@
-// const tabs = document.querySelectorAll('.tabheader__item'),
-//       tabContents = document.querySelectorAll('.tabcontent');
-
-// const boldOption = () => {
-//     tabs.forEach((items) => {
-
-//         items.addEventListener('click', (event) => {
-//              tabs.forEach((items) => {
-//                 items.classList.remove('tabheader__item_active');
-//         });
-//         event.target.classList.add('tabheader__item_active');
-
-//         hideContent();
-//         showContent(index);
-//         });
-//     });
-// };
-
-// const hideContent = () => {
-//     tabContents.forEach(item => {
-//         item.classList.remove('tabcontent_active');
-//     });
-// };
-
-// const showContent = (index) => {
-//         tabContents[index].classList.add('tabcontent_active');
-// };
-
-// boldOption();
-
-
 window.addEventListener('DOMContentLoaded', function() {
     
 	let tabs = document.querySelectorAll('.tabheader__item'),
